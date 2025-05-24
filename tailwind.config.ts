@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,43 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Colores tierra para Sumaq Tree
+				earth: {
+					50: '#faf9f7',
+					100: '#f5f3ef',
+					200: '#e8e4dc',
+					300: '#dbd5c9',
+					400: '#c1b7a3',
+					500: '#a6997d',
+					600: '#958a71',
+					700: '#7d735e',
+					800: '#645c4b',
+					900: '#524b3d'
+				},
+				forest: {
+					50: '#f6f8f4',
+					100: '#e8f0e1',
+					200: '#d1e1c3',
+					300: '#a8c896',
+					400: '#7fa964',
+					500: '#5d8a3f',
+					600: '#486d31',
+					700: '#3a5527',
+					800: '#2f4421',
+					900: '#28391e'
+				},
+				coffee: {
+					50: '#faf8f5',
+					100: '#f3f0e8',
+					200: '#e5ddd0',
+					300: '#d4c7b0',
+					400: '#bfa688',
+					500: '#a68a6a',
+					600: '#8d7054',
+					700: '#6f5a46',
+					800: '#5c4a3c',
+					900: '#4e3f34'
 				}
 			},
 			borderRadius: {
@@ -84,11 +122,33 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fade-in': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(20px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
+				},
+				'slide-up': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(30px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.6s ease-out',
+				'slide-up': 'slide-up 0.8s ease-out'
 			}
 		}
 	},
