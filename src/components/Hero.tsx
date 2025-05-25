@@ -19,7 +19,7 @@ const Hero = () => {
       <div className="container mx-auto px-6 lg:px-8 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Contenido Principal */}
-          <div className="space-y-8 animate-fade-in mt-20 text-left">
+          <div className="space-y-8 animate-fade-in mt-40 pl-16 text-left">
             <div className="space-y-4">
               <h1 className="text-4xl lg:text-6xl font-bold text-white leading-tight drop-shadow-2xl text-left">
                 Transforma tu{" "}
