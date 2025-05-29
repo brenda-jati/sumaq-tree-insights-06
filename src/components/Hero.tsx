@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Leaf, Smartphone, TrendingUp } from "lucide-react";
 
@@ -45,7 +46,7 @@ const Hero = () => {
               <Button
                 variant="outline"
                 size="lg"
-                className="border-2 border-white text-white hover:bg-white hover:text-forest-800 px-8 py-4 text-lg font-semibold rounded-xl transition-all duration-300 shadow-xl backdrop-blur-sm"
+                className="border-2 border-white text-forest-800 hover:bg-white hover:text-forest-800 px-8 py-4 text-lg font-semibold rounded-xl transition-all duration-300 shadow-xl backdrop-blur-sm"
               >
                 Conoce cómo optimizar en 5 minutos
               </Button>
