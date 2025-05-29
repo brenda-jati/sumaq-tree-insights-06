@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Leaf, Smartphone, TrendingUp } from "lucide-react";
 
@@ -9,7 +8,8 @@ const Hero = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url('/lovable-uploads/42ae2d60-c7a5-4cbe-859f-53351771afad.png')`
+          backgroundImage: `url('/lovable-uploads/42ae2d60-c7a5-4cbe-859f-53351771afad.png')`,
+          backgroundPosition: 'center calc(50% + 3rem)'
         }}
       >
         {/* Overlay for better text readability */}
