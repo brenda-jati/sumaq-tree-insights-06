@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Leaf, Smartphone, TrendingUp } from "lucide-react";
 
@@ -53,7 +52,7 @@ const Hero = () => {
             </div>
 
             {/* Beneficios Rápidos */}
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-8">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-8 mt-20 ml-60">
               <div className="flex items-center gap-3">
                 <div className="w-12 h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center">
                   <TrendingUp className="w-6 h-6 text-white" />
